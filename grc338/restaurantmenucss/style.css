@@ -1,5 +1,14 @@
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;}
+
+img {
+	width: 100%;
+	display: block;
+}
+
+/*CSS document*/
+
 body {
-	background-color: #f0ede8;
+	background-color: #2a2a2a;
 	color: #222222;
 	line-height: 140%;
 	font-family: serif;
@@ -15,10 +24,10 @@ h1 {
 }
 
 h2 {
-	background-color: #3a3a3a;
+	background-color: #888888;
 	color: #f0ede8;
-	font-size: 0.85em;
-	padding: 0.5em;
+	font-size: 1em;
+	padding: 0.5em 1em;
 	font-family: sans-serif;
 	font-weight: normal;
 }
@@ -47,6 +56,7 @@ p.price {
 }
 
 ul {
+	background-color: #f0ede8;
 	margin: 0 1em 1em;
 }
 
