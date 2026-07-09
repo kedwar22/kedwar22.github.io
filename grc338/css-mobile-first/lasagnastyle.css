@@ -8,13 +8,11 @@ img {
 }
 
 body {
-    background-color: #c0c0c0;
+    background-color: #ffffff;
     color: #222222;
 }
 
 .container {
-    max-width: 600px;
-    margin: 2em auto;
     background-color: #ffffff;
 }
 
@@ -39,10 +37,6 @@ h2 {
     color: #ffffff;
     font-size: 1.1em;
     margin-top: 0.5em;
-}
-
-figure {
-    width: 100%;
 }
 
 figcaption {
