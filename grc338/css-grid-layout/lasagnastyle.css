@@ -1,0 +1,103 @@
+/*CSS DOCUMENT*/
+
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+body {
+    background-color: #c0c0c0;
+    color: #222222;
+}
+
+.container {
+    max-width: 60em;
+    margin: 2em auto;
+    background-color: #ffffff;
+}
+
+header {
+    background-color: #e87722;
+    padding: 1.5em 1em 1em;
+}
+
+h1 {
+    font-family: Sutro, serif;
+    font-weight: 700;
+    font-style: italic;
+    color: #ffffff;
+    font-size: 2em;
+    line-height: 1.2;
+}
+
+h2 {
+    font-family: Sutro, serif;
+    font-weight: 300;
+    font-style: italic;
+    color: #ffffff;
+    font-size: 1.1em;
+    margin-top: 0.5em;
+}
+
+figure {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+figcaption {
+    font-family: Sutro, serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 1em;
+    line-height: 1.5;
+    padding: 1em;
+    color: #333333;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    padding: 1em;
+}
+
+h3 {
+    font-family: poppins, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 0.85em;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #e87722;
+    padding-bottom: 0.5em;
+    border-top: 1px solid #e87722;
+    padding-top: 0.5em;
+}
+
+ul, ol {
+    padding: 0.5em 0 1em 1.5em;
+}
+
+li {
+    font-family: poppins, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.95em;
+    line-height: 1.5;
+    margin-bottom: 0.75em;
+}
+
+footer {
+    background-color: #e87722;
+    padding: 1em;
+}
+
+footer p {
+    font-family: poppins, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+    font-size: 0.9em;
+}
