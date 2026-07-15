@@ -103,7 +103,7 @@ nav ul li {
 }
 
 nav ul li a {
-	display: block;
+	display: inline-block;
 	color: #ffff00;
 	background-color: #0000ff;
 	padding: 0.25em 0.5em 0.25em;
@@ -134,4 +134,3 @@ address {
 footer p {
 	margin: 0;
 }
-
