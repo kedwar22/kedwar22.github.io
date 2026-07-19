@@ -1,0 +1,167 @@
+/*CSS DOCUMENT*/
+
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;}
+
+img {
+	width: 100%;
+	display: block;
+}
+
+body {
+	font-family: sans-serif;
+	background-color: #cc0000;
+}
+
+div.home-container {
+	background: url(home-background.jpg) center center fixed;
+	background-size: cover;
+	position: relative;
+	min-height: 100vh;
+}
+
+div.container {
+	position: relative;
+	min-height: 100vh;
+	background-color: #ffffff;
+}
+
+main {
+	padding: 1em 1em 4em;
+}
+
+header {
+	display: grid;
+	grid-template-columns: auto auto;
+	background-color: #c8c8c8;
+	padding: 1em;
+}
+
+h1 {
+	max-width: 10em;
+}
+
+h2, h3, h4 {
+	font-weight: 700;
+}
+
+h2 {
+	font-size: 2em;
+	margin: 0.5em 0;
+}
+
+h3 {
+	font-size: 1.5em;
+	margin: 1em 0 0.5em;
+}
+
+a {
+	text-decoration: none;
+}
+
+nav ul {
+	text-align: right;
+}
+
+ul li {
+	list-style-type: none;
+}
+
+figure {
+	margin-bottom: 1em;
+}
+
+nav ul li {
+	text-transform: uppercase;
+	font-weight: 700;
+	margin-bottom: 0.25em;
+}
+
+nav ul li a {
+	display: inline-block;
+	color: #ffff00;
+	background-color: #0000ff;
+	padding: 0.25em 0.5em;
+}
+
+nav ul li.selected a {
+	background-color: #ff8800;
+}
+
+p {
+	margin: 0.5em 0;
+}
+
+p.slogan {
+	font-size: 3em;
+	font-family: serif;
+	font-style: italic;
+	margin: 1em 0;
+	color: #ffffff;
+}
+
+address {
+	color: #ff8800;
+}
+
+article {
+	background-color: #00ffff;
+	padding: 1em;
+}
+
+main.menu ul {
+	margin: 0;
+}
+
+main.menu ul li {
+	margin: 1em 0 0;
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-template-rows: auto auto;
+}
+
+p.description {
+	grid-column: 1;
+	margin: 0;
+}
+
+p.price {
+	grid-row: 1;
+	grid-column: 2;
+	color: #cc3300;
+	text-align: right;
+	margin: 0;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 3rem;
+	box-sizing: border-box;
+	padding: 0.75em 1em;
+	background-color: #ffff00;
+}
+
+footer p {
+	margin: 0;
+}
+
+@media screen and (min-width: 60em) {
+
+	div.home-container,
+	div.container {
+		max-width: 55em;
+		margin: 0 auto;
+	}
+
+	nav ul li {
+		display: inline;
+		margin-left: 0.5em;
+	}
+
+	main.menu ul {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+
+}
